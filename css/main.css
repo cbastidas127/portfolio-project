@@ -1,0 +1,176 @@
+/* Base Styles */
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+}
+@font-face{
+
+}
+/* Grid */
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/* Header Section Layout */
+
+header {
+    height: 780px;
+    background: url('../img/website-startups.jpg');
+    background-size: cover;
+}
+header h1 {
+    color: #fbfff9;
+    font-size: 3.0em;
+    font-weight: normal;
+    padding: 10px 0 40px 15px;
+}
+nav {
+    float: right;
+    padding: 55px 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: 60px;
+    color: #fbfff9;
+}
+nav a:hover {
+    color: #727A7B;
+}
+header h1 .bletter {
+    color: #727A7B;
+}
+header h2 {
+    clear: both;
+    color: #fbfff9;
+    font-size: 4em;
+    font-weight: normal;
+    padding: 90px 0 20px 25px;
+    text-align: center;
+    
+}
+header h2 .lastname {
+    color: #727A7B;
+}
+
+/* About Section Layout */
+#about {
+    height: 340px;
+    background-color: #fbfff9;
+}
+#about .full-width {
+    padding: 20px 0;
+}
+
+#about h1 {
+    text-align: center;
+    color: #727A7B;
+}
+#about p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #848C8F;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 40px;
+}
+#about .namebold {
+    font-weight: bold;
+}
+
+/* Portfolio Section Layout */
+#portfolio {
+    height: 1000px;
+    background-color: #727A7B;
+}
+#portfolio .full-width{
+    padding: 20px 0;
+}
+
+#portfolio .half-width{
+    padding-top: 60px;
+}
+
+#portfolio h1 {
+    text-align: center;
+    color: #fbfff9;
+}
+#portfolio p {
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: #fbfff9;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0px;
+    padding-right: 75px;
+}
+#portfolio img {
+    height: 350px;
+    width: 520px;
+    padding-left: 50px;
+}
+#portfolio .wordsbold {
+    font-weight: bold;
+}
+#portfolio .clears {
+    clear: both;
+}
+#portfolio .fix {
+    padding-left: 50px;
+    text-align: end;
+    padding-right: 75px;
+}
+#portfolio .fix2 {
+    padding-left: 0px;
+}
+/* Contact Layout */
+#contact {
+    height: 400px;
+    background-color: #fbfff9;
+}
+#contact .full-width{
+    padding: 20px 0;
+}
+#contact h1 {
+    text-align: center;
+    color: #727A7B;
+}
+#contact h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #848C8F;
+    text-align: center;
+    padding-top: 40px;
+}
+#contact p {
+    text-align: center;
+    color: #727A7B;
+    line-height: 23px;
+}
+#contact ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+}
+#contact ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+#contact ul img {
+    height: 40px;
+    width: 33px;;
+}
